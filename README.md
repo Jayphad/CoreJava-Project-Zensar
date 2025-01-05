@@ -21,7 +21,8 @@ This is a Java-based Quiz Application that allows users to create profiles, upda
 
 1. *Compile the Java Code* and *Run the Program*:
    ```java
-   javac -cp ".:lib/mysql-connector-java-8.0.11.jar" Main.java && java -cp ".;lib/mysql-connector-java-8.0.11.jar" Main
+   javac -cp ".:lib/mysql-connector-java-8.0.11.jar" Main.java 
+   java -cp ".;lib/mysql-connector-java-8.0.11.jar" Main
 
 ## Database Schema
 
