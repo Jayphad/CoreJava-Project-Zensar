@@ -17,6 +17,12 @@ This is a Java-based Quiz Application that allows users to create profiles, upda
 - *MySQL*: Ensure MySQL is installed and running.
 - *Database Setup*: Create the database and required tables using the SQL script provided below.
 
+## Steps to Compile and Run
+
+1. *Compile the Java Code* and *Run the Program*:
+   ```java
+   javac -cp ".:lib/mysql-connector-java-8.0.11.jar" Main.java && java -cp ".;lib/mysql-connector-java-8.0.11.jar" Main
+
 ## Database Schema
 
 Run the following SQL script to set up the database:
